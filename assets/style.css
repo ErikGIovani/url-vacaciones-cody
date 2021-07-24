@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+.sky {
+    background-image: url(images/background.png);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0vw;
+    position: relative;
+}
+.sky img {
+    width: 40vw;
+    margin: 6vw 0 4vw 0;
+}
+.sky form {
+    display: flex;
+    justify-content: center;
+    border-radius: 2vw;
+    border: none;
+    padding: 0 0 0 2vw;
+    background-color: white;
+}
+.sky form .formulario {
+    border: none;
+    outline: none;
+    font-size: 1.5vw;
+    width: 30vw;
+}
+.formulario-boton {
+    color: black;
+    background-color: #023e8a;
+    padding: 1vw;
+    border-radius: 2vw;
+    border: none;
+}
+.formulario-boton i {
+    font-size: 2vw;
+    color: white;
+}
+.sky .vista {
+    border-bottom: 0.3vw solid #ffffff;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    padding: 1vw 0;
+    position: absolute;
+    bottom: 0;
+}
+.sky .vista button {
+    border: none;
+    background-color: white;
+    margin-left: 3vw;
+    font-size: 1vw;
+    padding: 0.5vw 1vw;
+    border-radius: 2vw;
+}
+.sky .vista button a {
+    color: black;
+}
+footer {
+    position: relative;
+    background-image: url(images/background-footer.png);
+    background-size: contain;
+}
+footer div {
+    background-color: #5d61ef;
+    height: 15vw;
+}
+
+footer img {
+    width: 25vw;
+    position: absolute;
+    animation-name: cody;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+@keyframes cody {
+    0%   {top:0vw;}
+    50%   {top:1vw;}
+    100%   {top:0vw;}
+}
+footer p {
+    font-size: 2vw;
+    padding: 0 0 2vw 0;
+    text-align: center;
+}
+.hidde {
+    display: none;
+}
