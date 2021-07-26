@@ -14,6 +14,8 @@ form.addEventListener("submit", (e) => {
     document.getElementById("vista").classList.add("vista");
     nombre.value = "Por Favor Ingrese Un Nombre De Usuario";
     document.getElementById("link").innerText = `${nombre.value}`;
+    document.getElementById("vista-iframe").classList.remove("vista-frame");
+    document.getElementById("vista-iframe").classList.add("hidde");
     nombre.value = "";
     setTimeout(Borrar, 3000);
   } else {
