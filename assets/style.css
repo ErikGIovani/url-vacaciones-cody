@@ -114,5 +114,6 @@ iframe {
   width: 600px;
   resize: both;
   overflow: auto;
-  border-radius: 15px 15px 0 15px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: #f7f7f7;
 }
