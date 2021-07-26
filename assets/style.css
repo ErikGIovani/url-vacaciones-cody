@@ -8,15 +8,16 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
 
 .sky {
-  background-image: url(images/background.png);
-  background-position: center center;
-  background-size: cover;
+  background-position: top center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: #5d61ef;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10vh 0vw;
+  padding: 16vh 0vw;
   position: relative;
 }
 .sky img {
